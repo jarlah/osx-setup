@@ -38,6 +38,12 @@ brew upgrade --all
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+# Install Cask
+brew tap caskroom/cask
+brew tap caskroom/versions
+# Java
+brew cask install java
+
 # Install other useful binaries.
 brew install dark-mode
 brew install git
@@ -45,15 +51,10 @@ brew install git-lfs
 brew install git-flow
 brew install git-extras
 brew install node
-
-# Install Cask
-brew tap caskroom/cask
-brew tap caskroom/versions
-
-# Install stuff
-brew cask install java
 brew install sbt
 brew install typesafe-activator
+
+# Install stuff
 brew cask install alfred
 brew cask install iterm2
 brew cask install atom
