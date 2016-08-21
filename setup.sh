@@ -53,6 +53,7 @@ brew install git-extras
 brew install node
 brew install sbt
 brew install typesafe-activator
+brew install python
 
 # Install stuff
 brew cask install alfred
